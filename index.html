@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jennifer's Guide to Disneyland</title>
+    <script src="bower_components/modernizer/modernizr.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/scrollspy/build/scrollspy.js"></script>
+    <script src="bower_components/scrollspy/build/jquery.scrollspy.js"></script>
+    <script src="js/bath.js"></script>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="content/site.css">
+    <link href='https://fonts.googleapis.com/css?family=Mouse+Memoirs' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="images/suitcase.ico"/>
+</head>
+<body data-spy="scroll" data-target="#scrollNav" data-offset="10">
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#navHeaderCollapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand bath-nav" data-bath-path="home.html">Jennifer's Disney Guide</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a data-bath-path="californiaAdventure.html" class="bath-nav closeMobileNav">California
+                        Adventure</a></li>
+                    <li><a data-bath-path="disneyland.html" class="bath-nav closeMobileNav">Disneyland</a></li>
+                    <li><a data-bath-path="downtownDisney.html" class="bath-nav closeMobileNav">Downtown Disney</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Helpful Links<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://disneyland.disney.go.com/disneyland/maps/" target="_blank"
+                                   class="closeMobileNav">Map</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.disney.wdpro.dlr&hl=en"
+                                   target="_blank" class="closeMobileNav">Android app</a></li>
+                            <li><a href="https://itunes.apple.com/us/app/disneyland/id1022164656?mt=8" target="_blank"
+                                   class="closeMobileNav">IPhone app</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <div id="bath-content" data-bath-path="home.html"></div>
+</div>
+
+<footer class="text-center">
+    <span id="year"></span> - JennifersDisneyGuide.com - Created by Ryan Bray
+</footer>
+
+<script>
+    $(document).ready(function () {
+        document.getElementById("year").innerHTML = new Date().getFullYear().toString();
+
+        $(".closeMobileNav").click(function (event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+    });
+</script>
+
+</body>
+</html>
