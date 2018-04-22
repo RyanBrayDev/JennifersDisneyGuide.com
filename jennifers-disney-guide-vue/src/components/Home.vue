@@ -1,9 +1,8 @@
 <template>
-  <article class="post__article">
-    <header class="text-center post__header">
-      <h1 class="text-center post__heading">Jennifer’s Guide to Disneyland!!!</h1>
-      <img src="../assets/mickluggage.gif" class="img-responsive" style="margin: 0 auto; max-height: 150px">
-    </header>
+  <div class="container">
+    <h1>Jennifer’s Guide to Disneyland!!!</h1>
+    <img src="../assets/mickluggage.gif" style="margin: 0 auto; max-height: 150px">
+
     <h2>Disclaimer</h2>
 
     <p>I have rejoiced in Disneyland both with and without children, so some of my plans are based on both kinds of
@@ -83,7 +82,7 @@
       </li>
       <div class="greattime text-center">HAVE A GREAT TIME!</div>
     </ul>
-  </article>
+  </div>
 </template>
 
 <script>

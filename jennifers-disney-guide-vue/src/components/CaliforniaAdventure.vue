@@ -1,33 +1,18 @@
 <template>
-  <article class="row">
-    <nav class="col-md-3" id="scrollNav">
-      <ul class="nav nav-pills nav-stacked hidden-xs hidden-sm">
-        <li><a href="#sectionTop">Top</a></li>
-        <li><a href="#sectionCrazyStart">A Crazy Start</a></li>
-        <li><a href="#sectionCarsLand">Cars Land</a></li>
-        <li><a href="#sectionCondorFlats">Condor Flats</a></li>
-        <li><a href="#sectionHollywood">Hollywood Pictures Backlot</a></li>
-        <li><a href="#sectionGoldenState">Golden State</a></li>
-        <li><a href="#sectionBugsLife">Bug's Life</a></li>
-        <li><a href="#sectionParadisePier">Paradise Pier</a></li>
-        <li><a href="#sectionDontMiss">Don't Miss</a></li>
-      </ul>
-    </nav>
-    <div class="col-md-9">
-      <div id="sectionTop" class="navsection">
-        <header class="text-center post__header">
-          <img src="../assets/california-adventure.png" class="img-responsive"
-               style="margin: 0 auto; max-height: 150px">
-        </header>
-
-        <h2>California Adventure</h2>
+  <div class="container">
+    <div class="toc">
+      <table-of-contents></table-of-contents>
+    </div>
+    <div v-scroll-spy class="content">
+      <div class="toc-content">
+        <h1><img src="../assets/california-adventure.png" alt="California Adventure"></h1>
         <p>Let’s start with California Adventure. I have been there six times since the year it
           opened, and already a lot has changed. So, my suggestions will not be exhaustive, but it
           will speak to what I know.
         </p>
       </div>
-      <div id="sectionCrazyStart" class="navsection">
-        <h3>A Crazy Start</h3>
+      <div id="sectionCrazyStart" class="toc-content">
+        <h2>A Crazy Start</h2>
         <ul>
           <li>This is THE hotspot right now, and for good reason. It is just awesome. To get a
             Fast Pass for the Radiator Springs Racers, you have to get in line first thing in
@@ -73,8 +58,8 @@
           </li>
         </ul>
       </div>
-      <div id="sectionCarsLand" class="navsection">
-        <h3>Cars Land</h3>
+      <div id="sectionCarsLand" class="toc-content">
+        <h2>Cars Land</h2>
         <ul>
           <li>Take a minute to just look around this place. If you or your kids were a fan of the
             original movie, you will be so happy here. It honestly feels like you are there. It
@@ -91,8 +76,8 @@
           </li>
         </ul>
       </div>
-      <div id="sectionCondorFlats" class="navsection">
-        <h3>Condor Flats</h3>
+      <div id="sectionCondorFlats" class="toc-content">
+        <h2>Condor Flats</h2>
         <ul>
           <li>Get a Fast Pass for Soaring Over California (unless the line is short; then just
             jump on!) as soon as you are able (either once your Racers FastPass start time, or
@@ -104,9 +89,8 @@
           </li>
         </ul>
       </div>
-      <div id="sectionHollywood" class="navsection">
-        <h3>Hollywood Pictures Backlot</h3>
-
+      <div id="sectionHollywood" class="toc-content">
+        <h2>Hollywood Pictures Backlot</h2>
         <ul>
           <li>Head straight to the Tower of Terror. This is an amazing thrill ride, but it can get a
             long line fast. I have also been on it when we could just walk right on, so give it a
@@ -149,8 +133,8 @@
           </li>
         </ul>
       </div>
-      <div id="sectionGoldenState" class="navsection">
-        <h3>Golden State</h3>
+      <div id="sectionGoldenState" class="toc-content">
+        <h2>Golden State</h2>
         <ul>
           <li>I don’t know if kids will be big enough to ride the Grizzly River Run. It is a pretty
             typical raft ride, so decide for yourselves what you want to do. If you decide to ride
@@ -164,8 +148,8 @@
           </li>
         </ul>
       </div>
-      <div id="sectionBugsLife" class="navsection">
-        <h3>Bug's Life</h3>
+      <div id="sectionBugsLife" class="toc-content">
+        <h2>Bug's Life</h2>
         <ul>
           <li>The Bug’s Life area is a scrapbooker’s dream. This a great area for kids and adults to
             ride some fairly tame rides together, but take some time to look around at the way the
@@ -178,8 +162,8 @@
           </li>
         </ul>
       </div>
-      <div id="sectionParadisePier" class="navsection">
-        <h3>Paradise Pier</h3>
+      <div id="sectionParadisePier" class="toc-content">
+        <h2>Paradise Pier</h2>
         <ul>
           <li>All Disney shows are fun. They are also good ways to rest your feet.</li>
 
@@ -198,8 +182,8 @@
           </li>
         </ul>
       </div>
-      <div id="sectionDontMiss" class="lastsection navsection">
-        <h3>Don't Miss</h3>
+      <div id="sectionDontMiss" class="toc-content">
+        <h2>Don't Miss</h2>
         <ul>
           <li>Soarin’ Over California</li>
           <li>Toy Story Midway Mania</li>
@@ -212,15 +196,38 @@
         </ul>
       </div>
     </div>
-  </article>
+  </div>
 </template>
 
 <script>
+  import TableOfContents from "./TableOfContents";
+
   export default {
-    name: "CaliforniaAdventure"
+    name: "CaliforniaAdventure",
+    components: {TableOfContents}
   }
 </script>
 
 <style scoped>
+  .container {
+    height: 100%;
+  }
 
+  .content {
+    margin-left: 275px;
+  }
+
+  .toc {
+    width: 250px;
+  }
+
+  .toc-content{
+    /*padding-top: 65px;*/
+    /*margin-top: -65px;*/
+  }
+
+  img {
+    margin: 0 auto;
+    max-height: 150px
+  }
 </style>
