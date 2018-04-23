@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1><img src="../assets/downtown-disney.gif" alt="Downtown Disney"></h1>
+    <h1><img src="../assets/downtown-disney.gif" alt="Downtown Disney" class="center"></h1>
     <ul>
       <li>
         There are lots of stores to browse through and restaurants to eat in. Take some time to browse.
@@ -18,11 +18,6 @@
 </template>
 
 <script>
-  import Vue from 'vue';
-  import Scrollspy from 'vue2-scrollspy';
-
-  Vue.use(Scrollspy);
-
   export default {
     name: 'DowntownDisney'
   }

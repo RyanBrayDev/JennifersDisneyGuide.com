@@ -3,9 +3,9 @@
     <div class="toc">
       <table-of-contents></table-of-contents>
     </div>
-    <div v-scroll-spy class="content">
+    <div v-scroll-spy="{offset: 75}" class="content">
       <div class="toc-content">
-        <h1><img src="../assets/disneyland.png" alt="Disneyland"></h1>
+        <h1><img src="../assets/disneyland-park.png" alt="Disneyland" class="center"></h1>
         <p>Okay, I must admit, Disneyland is really my area of expertise. The following may seem a little
           obsessive, but I don’t care… at all. I am operating under the assumption that you will be arriving
           when the gates open. If you take advantage of an early opening, adjust accordingly. No matter what,
@@ -344,7 +344,7 @@
   }
 
   img {
-    max-height: 150px
+    //max-height: 20px
   }
 
 </style>

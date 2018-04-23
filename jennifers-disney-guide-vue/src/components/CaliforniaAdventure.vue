@@ -3,9 +3,9 @@
     <div class="toc">
       <table-of-contents></table-of-contents>
     </div>
-    <div v-scroll-spy class="content">
+    <div v-scroll-spy="{offset: 75}" class="content">
       <div class="toc-content">
-        <h1><img src="../assets/california-adventure.png" alt="California Adventure"></h1>
+        <h1><img src="../assets/california-adventure.png" alt="California Adventure" class="center"></h1>
         <p>Let’s start with California Adventure. I have been there six times since the year it
           opened, and already a lot has changed. So, my suggestions will not be exhaustive, but it
           will speak to what I know.

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h1>Jennifer’s Guide to Disneyland!!!</h1>
-    <img src="../assets/mickluggage.gif" style="margin: 0 auto; max-height: 150px">
+    <h1 class="center">Jennifer’s Guide to Disneyland</h1>
+    <img src="../assets/mickluggage.gif" style="margin: 0 auto; max-height: 150px" class="center">
 
     <h2>Disclaimer</h2>
 
@@ -87,12 +87,7 @@
 
 <script>
   export default {
-    name: 'Home',
-    data() {
-      return {
-        msg: 'Welcome to Your Vue.js App'
-      }
-    }
+    name: 'Home'
   }
 </script>
 
