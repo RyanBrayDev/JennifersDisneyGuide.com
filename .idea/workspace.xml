@@ -2,8 +2,462 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa628a1c-0ffa-447d-b936-41eb31a09514" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/site.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-commonjs-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/bs-raw-files-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/configBridge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/grunt/sauce_browsers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/js/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/.csscomb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/.csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/nuget/MyGet.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/nuget/bootstrap.less.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/nuget/bootstrap.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/MIT-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseJSON.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/defaultDisplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/isHidden.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rmargin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/accepts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_priv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/var/data_user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/intro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/outro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/rnotwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/strundefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/less/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/less/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/less/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/less/dist/less.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/less/dist/less.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/less/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/a-download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/audio-audiodata-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/audio-webaudio-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/battery-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/battery-level.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/blob-constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/canvas-todataurl-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/contenteditable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/contentsecuritypolicy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/contextmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/cookies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/cors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-backgroundposition-shorthand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-backgroundposition-xy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-backgroundrepeat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-backgroundsizecover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-boxsizing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-calc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-cubicbezierrange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-displayrunin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-displaytable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-hyphens.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-lastchild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-mask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-mediaqueries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-objectfit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-overflow-scrolling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-pointerevents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-positionsticky.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-regions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-remunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-scrollbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-shapes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-subpixelfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-supports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-userselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-vhunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-vmaxunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-vminunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/css-vwunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/custom-protocol-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/dataview-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/dom-classlist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/dom-createElement-attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/dom-dataset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/dom-microdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/elem-datalist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/elem-details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/elem-output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/elem-progress-meter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/elem-ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/elem-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/elem-track.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/es5-strictmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/event-deviceorientation-motion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/exif-orientation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/file-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/file-filesystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/forms-fileinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/forms-formattribute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/forms-inputnumber-l10n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/forms-placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/forms-speechinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/forms-validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/fullscreen-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/gamepad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/getusermedia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/ie8compat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/iframe-sandbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/iframe-seamless.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/iframe-srcdoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/img-apng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/img-webp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/lists-reversed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/mathml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/network-connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/network-eventsource.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/network-xhr2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/notification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/performance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/pointerlock-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/quota-management-api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/requestanimationframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/script-async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/script-defer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/style-scoped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/svg-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/unicode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/url-data-uri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/userdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/vibration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/web-intents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/webgl-extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/websockets-binary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/window-framed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/workers-blobworkers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/workers-dataworkers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/feature-detects/workers-sharedworkers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/grunt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/media/Modernizr 2 Logo.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/media/Modernizr 2 Logo.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/media/Modernizr 2 Logo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/media/Modernizr 2 Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/media/Modernizr 2 Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/Windsong-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/Windsong-webfont.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/Windsong-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/Windsong-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/Windsong-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/apng_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/before-after.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/form_validation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/ga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/green5x5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/hashchange.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/mathml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/mathml_ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/modernizr-1.7.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/png_alpha_result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/pushstate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/red30x30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/ruby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/stroked-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/svg-html-blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/svg-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/svg-img.svg.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/svg_blur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/text-shadow1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/text-shadow2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/windsong_font.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/caniuse_files/xhtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/dumpdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/lib/detect-global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/lib/jquery-1.7b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/lib/jsonselect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/lib/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/lib/uaparser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/unit-caniuse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/js/unit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/qunit/qunit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/qunit/qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/modernizer/test/qunit/run-qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/scrollspy/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/scrollspy/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/scrollspy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/scrollspy/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/scrollspy/build/jquery.scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/scrollspy/build/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower_components/scrollspy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/californiaAdventure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/disneyland.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downtownDisney.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/californiaAdventure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/disneylandpark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/downtowndis.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mickluggage.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mickluggage.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/suitcase.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/suitcase.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/suitcase.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/suitcase.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/suitcase.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/suitcase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/build/webpack.test.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.test.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/config/test.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/test.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/california-adventure.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/california-adventure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/disneyland-park.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/disneyland-park.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/disneyland.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/disneyland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/downtown-disney.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/downtown-disney.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/mickluggage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/suitcase.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/suitcase.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/assets/suitcase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/components/CaliforniaAdventure.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CaliforniaAdventure.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/components/Disneyland.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Disneyland.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/components/DowntownDisney.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DowntownDisney.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/components/TableOfContents.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableOfContents.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/static/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/static/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/test/unit/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/test/unit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/test/unit/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jennifers-disney-guide-vue/test/unit/specs/HelloWorld.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bath.js" beforeDir="false" />
     </list>
     <ignored path="JennifersDisneyGuide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,112 +471,19 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="JennifersDisneyGuide" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
+      <file leaf-file-name=".eslintrc.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="bath.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/bath.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="33" column="71" lean-forward="true" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-              <folding>
-                <element signature="n#header#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="disneyland.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/disneyland.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="californiaAdventure.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="downtownDisney.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Content/site.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -164,105 +525,84 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-848" />
+    <option name="y" value="-1220" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JennifersDisneyGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jennifersdisneyguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JennifersDisneyGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jennifersdisneyguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JennifersDisneyGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jennifersdisneyguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JennifersDisneyGuide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jennifersdisneyguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="JennifersDisneyGuide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jennifers-disney-guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JennifersDisneyGuide" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jennifers-disney-guide" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="E:\Program Files\nodejs\node.exe" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clubcardinalsbaseball" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JennifersDisneyGuide/index.html">
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JennifersDisneyGuide/index.html" />
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -280,6 +620,13 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -287,33 +634,23 @@
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-interpreter />
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
-      <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>DIRECTORY</test-kind>
       <test-directory />
       <recursive>false</recursive>
-      <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -326,37 +663,40 @@
       <option name="presentableId" value="Default" />
       <updated>1451255453600</updated>
       <workItem from="1510371694718" duration="64000" />
+      <workItem from="1510372277994" duration="431000" />
+      <workItem from="1524685166466" duration="703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64000" />
+    <option name="totallyTimeSpent" value="1198000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-848" y="-1220" width="1936" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17864583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17859007" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32980973" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32692307" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39957717" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32980973" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -373,633 +713,98 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/bath.js" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/disneyland.html" />
+    <entry file="file://$PROJECT_DIR$/californiaAdventure.html" />
+    <entry file="file://$PROJECT_DIR$/downtownDisney.html" />
+    <entry file="file://$PROJECT_DIR$/Content/site.less" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/bath.js" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/disneyland.html" />
+    <entry file="file://$PROJECT_DIR$/californiaAdventure.html" />
+    <entry file="file://$PROJECT_DIR$/downtownDisney.html" />
+    <entry file="file://$PROJECT_DIR$/Content/site.less" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/bath.js" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/disneyland.html" />
+    <entry file="file://$PROJECT_DIR$/californiaAdventure.html" />
+    <entry file="file://$PROJECT_DIR$/downtownDisney.html" />
+    <entry file="file://$PROJECT_DIR$/Content/site.less" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding />
+        <state>
+          <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bath.js" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/disneyland.html" />
+    <entry file="file://$PROJECT_DIR$/californiaAdventure.html" />
+    <entry file="file://$PROJECT_DIR$/downtownDisney.html" />
+    <entry file="file://$PROJECT_DIR$/Content/site.less" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bath.js" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/disneyland.html" />
+    <entry file="file://$PROJECT_DIR$/californiaAdventure.html" />
+    <entry file="file://$PROJECT_DIR$/downtownDisney.html" />
+    <entry file="file://$PROJECT_DIR$/Content/site.less" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disneyland.html" />
+    <entry file="file://$PROJECT_DIR$/californiaAdventure.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/Content/site.css" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/californiaAdventure.html" />
+    <entry file="file://$PROJECT_DIR$/downtownDisney.html" />
+    <entry file="file://$PROJECT_DIR$/Content/site.less" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disneyland.html" />
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js/bath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/disneyland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disneyland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disneyland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="88" lean-forward="false" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disneyland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="116" column="14" lean-forward="false" selection-start-line="116" selection-start-column="14" selection-end-line="116" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="88" lean-forward="false" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disneyland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="232" column="43" lean-forward="false" selection-start-line="232" selection-start-column="43" selection-end-line="232" selection-end-column="43" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disneyland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="417" column="9" lean-forward="false" selection-start-line="417" selection-start-column="9" selection-end-line="417" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/jquery/dist/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-          <folding>
-            <element signature="n#header#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/californiaAdventure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/downtownDisney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Content/site.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disneyland.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#header#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#article#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bath.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="33" column="71" lean-forward="true" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
