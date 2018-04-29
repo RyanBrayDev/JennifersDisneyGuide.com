@@ -28,8 +28,6 @@
   }
 
   body {
-    position: relative;
-    margin: 0;
     padding-top: 20px;
     font-size: 22px;
     line-height: 30px;
@@ -40,19 +38,6 @@
     margin-bottom: 10px;
   }
 
-  h2 {
-    font-size: 34px;
-  }
-
-  h3 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 3px;
-  }
-
-  p {
-    margin-top: 15px;
-  }
 
   .container {
     padding-right: 15px;
@@ -79,12 +64,12 @@
     }
   }
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  /*.center {*/
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 50%;*/
+  /*}*/
 
   .router-link-active {
     color: yellow !important;

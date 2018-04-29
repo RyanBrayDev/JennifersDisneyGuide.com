@@ -10,6 +10,7 @@
           opened, and already a lot has changed. So, my suggestions will not be exhaustive, but it
           will speak to what I know.
         </p>
+        <a href="https://disneyland.disney.go.com/attractions/disney-california-adventure/map/" target="_blank">Park Map</a>
       </div>
       <div id="sectionCrazyStart" class="toc-content">
         <h2>A Crazy Start</h2>
@@ -209,9 +210,6 @@
 </script>
 
 <style scoped>
-  .container {
-    height: 100%;
-  }
 
   .content {
     margin-left: 275px;
@@ -221,13 +219,11 @@
     width: 250px;
   }
 
-  .toc-content{
-    /*padding-top: 65px;*/
-    /*margin-top: -65px;*/
+  h1{
+    text-align: center;
   }
 
   img {
-    margin: 0 auto;
     max-height: 150px
   }
 </style>

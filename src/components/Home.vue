@@ -1,7 +1,8 @@
 <template>
   <div class="container">
-    <h1 class="center">Jennifer’s Guide to Disneyland</h1>
-    <img src="../assets/mickluggage.gif" style="margin: 0 auto; max-height: 150px" class="center">
+    <h1 class="center">Jennifer’s Guide to Disneyland
+      <img src="../assets/mickluggage.gif">
+    </h1>
 
     <h2>Disclaimer</h2>
 
@@ -15,20 +16,21 @@
 
     <h2>Hot App</h2>
     <p>There is a great app from Disney for your phones that allows you to check the wait times for rides in both
-      parks,
-      gives you character greeting spots, park hours, maps, etc. It can come in really handy when you’re trying to
-      decide
-      what to do next. Sometimes, I check it when I’m in Colorado just to daydream about what I could be riding.
+      parks, gives you character greeting spots, park hours, maps, etc. It can come in really handy when you’re
+      trying to
+      decide what to do next. Sometimes, I check it when I’m in Colorado just to daydream about what I could be
+      riding.
     </p>
+    <ul>
+      <li><a href="https://play.google.com/store/apps/details?id=com.disney.wdpro.dlr&hl=en" target="_blank">Android</a></li>
+      <li><a href="https://itunes.apple.com/us/app/disneyland/id1022164656?mt=8" target="_blank">IPhone</a></li>
+    </ul>
 
     <h2>Warning</h2>
     <p>It would be a good idea to check out Disneyland’s website before you leave to see which rides will be shut
-      down
-      for
-      refurbishment. That way, you can get your crying out of the way before you get there if Pirates of the
-      Caribbean
-      is
-      closed.
+      down for refurbishment. That way, you can get your crying out of the way before you get there if Pirates of
+      the
+      Caribbean is closed.
     </p>
 
     <h2>General Tips</h2>
@@ -36,28 +38,22 @@
       <li>Both parks offer lockers. The money is worth it because you won’t have to lug everything around all day.
       </li>
       <li>Fast Pass is a gift from God. Take the time to read about them in Birnbaum’s, and don’t hesitate to ask
-        a
-        cast member about anything that is confusing.
+        a cast member about anything that is confusing.
       </li>
       <li>I have not suggested when you should fit in eating. You will have to run this on your own schedule, but
-        keep
-        in mind that most people will want to eat at noon, so the restaurants get very crowded.
+        keep in mind that most people will want to eat at noon, so the restaurants get very crowded.
       </li>
       <li>Character meals are the BEST way to meet characters. They will come to your table for pictures, and you
         won’t have to push and shove. They are a little pricey but worth it. Goofy’s Kitchen is hands-down the
-        best,
-        but the Plaza Inn isn’t bad either. Goofy’s Kitchen offers all meals, and lunch is usually the least
+        best, but the Plaza Inn isn’t bad either. Goofy’s Kitchen offers all meals, and lunch is usually the least
         crowded. These can get pricey in a hurry.
       </li>
       <li>Early entry is sometimes an option. This allows you to get into the park about an hour before it
-        normally
-        opens, and there are specific rides running. If you can pry yourselves out of bed, this is a great way
-        to
-        ride a lot of rides with no waiting. I can’t stress enough how important it is to get to the parks as
-        early
-        as possible. By noon, they will be packed. This would be a great time to go to Goofy’s Kitchen (you
-        might
-        want to call for reservations), go to your hotel for a nap or take a dip in the pool.
+        normally opens, and there are specific rides running. If you can pry yourselves out of bed, this is a great
+        way
+        to ride a lot of rides with no waiting. I can’t stress enough how important it is to get to the parks as
+        early as possible. By noon, they will be packed. This would be a great time to go to Goofy’s Kitchen (you
+        might want to call for reservations), go to your hotel for a nap or take a dip in the pool.
       </li>
       <li>Some of the big rides have a “kid-switch program” (my term, not theirs) for little ones who are not big
         enough for some of the rides. This allows you to wait with a child while one of you rides the ride.
@@ -80,41 +76,42 @@
       <li>Don’t wait too long in line. You can always come back to that ride later.</li>
       <li>Let go of any reservations you might have about Disneyland being for kids. Let your guard down and…
       </li>
-      <div class="greattime text-center">HAVE A GREAT TIME!</div>
+      <h3>HAVE A GREAT TIME!</h3>
     </ul>
   </div>
 </template>
 
 <script>
+  import TableOfContents from './TableOfContents';
+
   export default {
-    name: 'Home'
+    name: 'Home',
+    components: {TableOfContents}
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
-  article {
-    font-family: 'Mouse Memoirs', sans-serif;
+  .content {
+    margin-left: 275px;
   }
 
-  h1, h2 {
-    font-weight: normal;
+  .toc {
+    width: 250px;
   }
 
-  ul {
-    list-style-type: none;
-    padding: 0;
+  h1 {
+    text-align: center;
   }
 
-  li {
-    display: inline-block;
-    margin: 0 10px;
+  img {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    height: 150px;
   }
 
-  a {
-    color: #42b983;
+  h3{
+    text-align: center;
   }
-
-
 </style>

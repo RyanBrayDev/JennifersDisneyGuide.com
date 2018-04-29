@@ -5,7 +5,7 @@
     </div>
     <div v-scroll-spy="{offset: 75}" class="content">
       <div class="toc-content">
-        <h1><img src="../assets/disneyland-park.png" alt="Disneyland" class="center"></h1>
+        <h1><img src="../assets/disneyland-park.png" alt="Disneyland"></h1>
         <p>Okay, I must admit, Disneyland is really my area of expertise. The following may seem a little
           obsessive, but I don’t care… at all. I am operating under the assumption that you will be arriving
           when the gates open. If you take advantage of an early opening, adjust accordingly. No matter what,
@@ -13,6 +13,7 @@
           you line headaches overall. Plus, there are usually lots of characters out in the morning right
           inside the gates. Have your autograph books ready.
         </p>
+        <a href="https://disneyland.disney.go.com/disneyland/maps/" target="_blank">Park Map</a>
       </div>
       <div id="sectionFantasyland" class="toc-content">
         <h2>Fantasyland</h2>
@@ -331,9 +332,6 @@
 </script>
 
 <style scoped>
-  .container {
-    height: 100%;
-  }
 
   .content {
     margin-left: 275px;
@@ -343,8 +341,12 @@
     width: 250px;
   }
 
+  h1{
+    text-align: center;
+  }
+
   img {
-    //max-height: 20px
+    max-height: 100px
   }
 
 </style>
