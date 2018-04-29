@@ -24,8 +24,11 @@
 </script>
 
 <style scoped>
+  h1{
+    text-align: center;
+  }
+
   img {
-    margin: 0 auto;
     max-height: 150px
   }
 </style>
