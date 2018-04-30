@@ -19,7 +19,6 @@
     mounted() {
       var elements = document.getElementsByClassName('toc-content');
       var newContents = [];
-      console.log(elements);
       for (var i = 0; i < elements.length; i++) {
         if (elements[i].firstChild.innerText) {
           newContents.push({
@@ -43,13 +42,20 @@
 
   .table-of-contents {
     background-color: red;
-    overflow-x: auto;
+    overflow-y: scroll;
     border-radius: 5px;
     border: 2px solid yellow;
     padding: 20px;
     position: fixed;
     width: 210px;
     color: white;
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .table-of-contents {
+      display: block;
+    }
   }
 
   .table-of-contents a {
@@ -63,25 +69,10 @@
     color: yellow;
   }
 
-  .active {
-    color: yellow;
-  }
-
   ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
 
-  /*!* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) *!*/
-  /*@media screen and (max-height: 450px) {*/
-    /*.table-of-contents {*/
-      /*padding-top: 15px;*/
-      /*max-width: 250px;*/
-    /*}*/
-
-    /*.table-of-contents a {*/
-      /*font-size: 18px;*/
-    /*}*/
-  /*}*/
 </style>

@@ -31,6 +31,7 @@
     padding-top: 20px;
     font-size: 22px;
     line-height: 30px;
+    margin: 0px;
   }
 
   h1 {
