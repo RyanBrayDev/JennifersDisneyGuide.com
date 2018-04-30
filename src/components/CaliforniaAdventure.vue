@@ -212,7 +212,13 @@
 <style scoped>
 
   .content {
-    margin-left: 275px;
+    margin-left: 0px;
+  }
+
+  @media (min-width: 768px) {
+    .content {
+      margin-left: 275px;
+    }
   }
 
   .toc {
