@@ -9,6 +9,7 @@
   import Header from './components/Header'
   import Vue from 'vue';
   import Scrollspy from 'vue2-scrollspy';
+
   Vue.use(Scrollspy);
 
   export default {
@@ -39,7 +40,6 @@
     margin-bottom: 10px;
   }
 
-
   .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -64,16 +64,4 @@
       width: 1170px;
     }
   }
-
-  /*.center {*/
-    /*display: block;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*width: 50%;*/
-  /*}*/
-
-  .router-link-active {
-    color: yellow !important;
-  }
-
 </style>

@@ -29,7 +29,6 @@
         function () {
           var x = document.getElementById("navbar");
           x.className = "nav-links";
-          console.log("clikced")
         }
     }
   }
@@ -47,10 +46,6 @@
     min-height: 50px;
   }
 
-  .container {
-    margin-top: 10px;
-  }
-
   .nav-title {
     float: left;
     color: white;
@@ -63,9 +58,14 @@
     margin: 0;
   }
 
+  .router-link-active {
+    color: yellow;
+  }
+
   a {
     color: white;
     text-decoration: none;
+    padding: 10px;
   }
 
   .nav-links a {
@@ -73,11 +73,17 @@
     margin-left: 20px;
   }
 
+  .nav-links a:hover {
+    background-color: yellow;
+    color: black;
+  }
+
   .icon {
     display: none;
   }
 
-  @media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 650px) {
     .nav-links a {
       display: none;
       text-decoration: none;
@@ -86,12 +92,21 @@
     .icon {
       float: right;
       display: block;
+      background-color: yellow;
+      border: solid black 2px;
+      color: black;
+      padding: 2px 8px;
+      border-radius: 5px;
+      margin-top: 6px;
     }
 
     .nav-links.responsive {
       float: none;
       display: block;
       width: 100%;
+      border-top: solid white 2px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     .nav-links.responsive a {

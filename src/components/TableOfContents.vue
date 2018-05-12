@@ -40,9 +40,12 @@
 
 <style scoped>
 
+  .active{
+    color: yellow;
+  }
+
   .table-of-contents {
     background-color: red;
-    overflow-y: scroll;
     border-radius: 5px;
     border: 2px solid yellow;
     padding: 20px;
@@ -52,27 +55,41 @@
     display: none;
   }
 
+  .table-of-contents a {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .table-of-contents a:hover {
+    background-color: yellow;
+    color: black;
+  }
+
+  .table-of-contents ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
   @media (min-width: 768px) {
     .table-of-contents {
       display: block;
     }
   }
 
-  .table-of-contents a {
-    text-decoration: none;
-    font-size: 25px;
-    display: block;
-    margin-bottom: 10px;
-  }
+  @media screen and (max-height: 550px) {
+    .table-of-contents {
+      padding-top: 14px;
+    }
 
-  .table-of-contents a:hover {
-    color: yellow;
-  }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    .table-of-contents a {
+      font-size: 18px;
+      line-height: 18px;
+    }
   }
 
 </style>
