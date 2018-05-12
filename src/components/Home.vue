@@ -82,11 +82,8 @@
 </template>
 
 <script>
-  import TableOfContents from './TableOfContents';
-
   export default {
-    name: 'Home',
-    components: {TableOfContents}
+    name: 'Home'
   }
 </script>
 

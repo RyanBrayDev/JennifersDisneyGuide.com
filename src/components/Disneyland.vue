@@ -4,7 +4,7 @@
       <table-of-contents></table-of-contents>
     </div>
     <div v-scroll-spy="{offset: 75}" class="content">
-      <div class="toc-content">
+      <div id="sectionDisneyland" class="toc-content">
         <h1><img src="../assets/disneyland-park.png" alt="Disneyland"></h1>
         <p>Okay, I must admit, Disneyland is really my area of expertise. The following may seem a little
           obsessive, but I don’t care… at all. I am operating under the assumption that you will be arriving
